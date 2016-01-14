@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Sudoku</title>
+		<style type="text/css">
+			body {
+				background-color: #E3F2FD;
+				font-family: helvetica;
+			}
+			#root {
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;				
+			}
+			p {
+				text-align: center;
+				font-size: 10px;
+			}
+			table {
+				border: 3px solid #D5EDEB;
+				margin-top: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #D5EDEB;
+			}
+			td {
+				border: 1px solid #D5EDEB;
+				width: 50px;
+				height: 50px;				
+			}	
+			input {
+				background-color: #1DE9B6;
+				height: 50px;
+				width: 50px;
+				border: 0px;				
+				text-align: center;
+				font-size: 20px;
+				margin-right: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+			}
+			button {
+				font-weight: bold;
+				text-align: center;
+				background-color: #0277BD;
+				color: #FAFAFA;
+				border:none;
+				border-radius: 2px;
+				margin-top: 20px;
+				margin-right: 10px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+			button:disabled {
+				opacity: 0.2;
+			}			
+			button.clear {
+				border-radius: 100px;
+				color: black;
+				background-color: #D32F2F;
+			}
+			button.undo {
+				border-radius: 100px;
+				color: black;
+				background-color: #FBC02D;
+			}			
+			button.solve {
+				background-color: #4CAF50;
+			}
+			button.check {
+				background-color: #03A9F4;
+			}
+			.footnote{
+				margin-top: 50px;
+			}
+			.fixed {
+				font-weight: bold;
+				color: #00838F;
+			}
+			.result {
+				color: gray;
+			}
+			.solved-appear {
+				opacity: 0.01;
+			}			
+			.solved-appear.solved-appear-active {
+				opacity: 1;
+				transition: opacity 200ms ease-in;
+			}	
+		</style>
+	</head>
+	<body>
+		<div id='root'></div>
+		<script src="/static/bundle.js"></script>
+	</body>
+</html>
