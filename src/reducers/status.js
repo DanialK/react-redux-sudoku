@@ -1,4 +1,5 @@
-import { extend, cloneDeep } from 'lodash';
+import cloneDeep from 'lodash/cloneDeep';
+import { default as extend } from 'lodash/assignIn';
 
 const initialState = {
 	isSolved: false,

@@ -1,4 +1,7 @@
-import { cloneDeep, flatten, range, contains } from 'lodash';
+import cloneDeep from 'lodash/cloneDeep';
+import flatten from 'lodash/flatten';
+import range from 'lodash/range';
+import includes from 'lodash/includes';
 
 const VALUES = range(1, 10);
 const DIM = range(0, 9);
