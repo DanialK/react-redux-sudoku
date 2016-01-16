@@ -1,6 +1,5 @@
 import React from 'react';
 import Grid from './components/Grid';
-import { flatten } from 'lodash';
 import { solver, isSolvable, isComplete } from './utils/sudoku';
 import { solve, clear, undo} from './actions/grid';
 
