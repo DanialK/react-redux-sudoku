@@ -42,7 +42,7 @@ const App = React.createClass({
 					onClick={() => {
 						if (isSolvable(grid)) {
 							if (isComplete(grid)) {
-								return alert('Congradulations, you solved it!!');
+								return alert('Congratulations, you solved it!!');
 							}
 							alert('This Sudoku is solvable, keep going !!');
 						} else {
